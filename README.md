@@ -74,3 +74,8 @@ The first pipeline we are going to create is purely for release and deployment o
 
 Once you have selected the Resource Type and alert metric to monitor you need to define the Resource Group and Action Group.
 
+![Azure Powershell Tasks](https://etsaustorage.blob.core.windows.net/$web/images/github/alertspipeline.JPG)
+
+
+![Script Arguements](https://etsaustorage.blob.core.windows.net/$web/images/github/scriptarguements.JPG)
+
