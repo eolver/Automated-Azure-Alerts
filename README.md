@@ -11,10 +11,17 @@ There is folder for 1 resource, and each of its metric namespaces you may want t
 
 It will set the alert for every matching resource type within the subscription.
 
+There is also logic in the script where if 1 of the resources requires a different threshold value than the others (Eg one app service is acceptable to have 10 seconds where the other 80 need a min of 2 seconds response time) you can add the metric name as a tag to that resoure and set the tag value as the threshhold value required.
+
+Tag: AverageResponseTime
+Value: 10
+
 the following 2 variables need to be defined for the script to successfully execute. (the action group must recide in the resource group defined)
 
 -Resource Group Name
 -Action Group Name
+
+
 
 ## Overview
 
