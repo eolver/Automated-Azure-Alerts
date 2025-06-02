@@ -25,7 +25,7 @@ the following 2 variables need to be defined for the script to successfully exec
 
 ## Overview
 
-![ARM and Azure Devops](https://etsaustorage.blob.core.windows.net/$web/images/github/armps1.jpg)
+![ARM and Azure Devops](https://www.etsolutionsau.com/images/github/armps1.jpg)
 
 
 Objective: Automate the process for setting up alerts via Azure DevOps Pipeline for all resources in Azure.
@@ -56,7 +56,7 @@ When the repo is created it will prompt to 'Clone in VS Code' which will automat
 
 Each time you edit, update a script you want a new build artifact so you can select the template in the release pipeline
 
-![ARM and Azure Devops](https://etsaustorage.blob.core.windows.net/$web/images/github/artifact.jpg)
+![ARM and Azure Devops](https://www.etsolutionsau.com/images/github/artifact.jpg)
 
 
 
@@ -74,8 +74,8 @@ The first pipeline we are going to create is purely for release and deployment o
 
 Once you have selected the Resource Type and alert metric to monitor you need to define the Resource Group and Action Group.
 
-![Azure Powershell Tasks](https://etsaustorage.blob.core.windows.net/$web/images/github/alertspipeline.JPG)
+![Azure Powershell Tasks](https://www.etsolutionsau.com/images/github/alertspipeline.JPG)
 
 
-![Script Arguements](https://etsaustorage.blob.core.windows.net/$web/images/github/scriptarguements.JPG)
+![Script Arguements](https://www.etsolutionsau.com/images/****github/scriptarguements.JPG)
 
